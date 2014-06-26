@@ -1,0 +1,3 @@
+if pgrep -q VBoxHeadless; then
+	osascript -e 'display notification "Vagrant is up and running." with title "awakened"'
+fi
